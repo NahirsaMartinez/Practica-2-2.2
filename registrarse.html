@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Formulrio registro</title>
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo-registro.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">Creá tu cuenta</div>
+      <form action="">
+        
+        <div class="account-details">
+          <div class="form-group">
+            <label class="form-title" for="">Usuario</label>
+            <input type="text" placeholder="Ingresar Usuario" required id="usuario-ingresado">
+          </div>
+          <div class="form-group">
+            <label class="form-title" for="">Contraseña</label>
+            <input type="password" placeholder="Ingresar tu contraseña" required id="contrasenia-ingresada">
+          </div>
+          <div class="form-group">
+            <label class="form-title" for="">Confirmar Contraseña</label>
+            <input type="password" placeholder="Confirmar contraseña" required id="contrasenia-verif">
+          </div>
+        </div>
+        
+        <div class="button">
+            <a onclick="registrarCuenta()" class="btn btn-primary btn-lg" href="index.html" role="button">Registrarse</a>
+        </div>
+      </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
